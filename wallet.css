@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	padding-top: 5px;
+	margin: 0;
+	font-family: monospace;
+	background-color: lightblue;
+}
+
+a {
+	padding: 0;
+	margin:0;
+	color: black;
+}
+
+#content {
+	border-style: solid;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	width: 450px;
+	height: 210px;
+	font-size: .95rem;
+	background-color: lightgrey;
+}
+
+#header {
+	position: relative;
+	width: auto;
+	height: 25px;
+	text-align: center;
+}
+
+#footer {
+	position: relative;
+	height: auto;
+	width: auto;
+	height: 25px;
+	text-align: right;
+	float: right;
+}
+
+.money {
+	margin: 0;
+	padding: 0;
+	font-size: 3.8rem;
+	display: inline;
+}
+
+.amount {
+	display: inline;
+	float: right;
+	padding-right: 10px;
+}
+
+.currency {
+	display: inline;
+	padding-left: 10px;
+}
+
+#ones {
+	color: red;
+}
+
+#one {
+	color: white;
+}
+
+#usd {
+	color: black;
+}
+
+#usds {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.l2 {
+	width: 215px;
+	height: 25px;
+	position: relative;
+	text-align: right;
+	float: left;
+	display: inline;
+	padding-right: 10px;
+}
+
+.r2 {
+	width: 215px;
+	height: 25px;
+	display: inline;
+	float: right;
+	position: relative;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.r3 {
+	width: 150px;
+	height: auto;
+	float: right;
+	position: relative;
+	display: inline;
+	text-align: left;
+}
+
+.r23 {
+	width: 300px;
+	height: auto;
+	float: left;
+	position: relative;
+	display: inline;
+	text-align: right;
+}
